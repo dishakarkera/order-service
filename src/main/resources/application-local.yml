@@ -1,0 +1,15 @@
+
+Eureka:
+  client:
+    service-url:
+      default-zone: http://localhost:8761/eureka
+
+spring:
+  data:
+    mongodb:
+      url: jdbc:mysql://localhost:27017/orderdb
+      host: localhost
+      port: 27017
+      database: orderdb
+      repositories:
+        enabled: true
